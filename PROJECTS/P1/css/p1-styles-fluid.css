@@ -1,0 +1,39 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: box-sizing;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	line-height: 1.25em;
+	color: #50514f;
+}
+.container-page {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.top-left, .top-right {
+	width: 50%;
+	background-color: red;
+	height: 300px;
+}
+.row, .banner {
+	width: 100%;
+	background-color: black;
+	height: 300px;
+}
+.portfolio {
+	width: calc ((100% - 20px) /3)
+	margin-right: 10px;
+	background-color: yellow;
+	height: 300px;
+}

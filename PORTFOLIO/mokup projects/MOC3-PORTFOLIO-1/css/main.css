@@ -1,0 +1,133 @@
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+	h1, p {
+		text-align: left;
+	}
+	.slider {
+		display: none;
+	}
+	.row {
+		flex-direction: column;
+	}
+	.row img {
+		margin-top: 20px;
+	}
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+.grid {
+	margin: 0 auto;
+	max-width:	1024px;
+	width: 100%;
+}
+.row {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	display: -webkit-flex; /*in order to work with Safari, the -webkit- prefix must be added*/
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+.logo {
+	width: 100px
+}
+.header {
+	color: #676857;
+}
+.header h1 {
+	text-align: right;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.header p {
+	text-align: right;
+	font-weight: 700;
+	font-size: 20px;
+}
+.header img {
+	width: 140px;
+	padding: 20px;
+	float: left;
+}
+.header {
+	border-bottom: 5px solid #bcbcbc;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.slider {
+	margin-top: 25px;
+
+}
+.row h2 {
+	color: #bcbcbc;
+	font-size: 30px;
+	font-weight: 400;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.portfolio a {
+	color: #676857;
+}
+.portfolio h3 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 5px;
+}
+.portfolio img {
+	width: 95%;
+}
+.portfolio {
+	color: #676857;
+	text-align: center;
+	justify-content: space-between;
+}
+#left-image {
+	float: left;
+}

@@ -1,0 +1,25 @@
+.twitter-button img {
+    width: 100px;
+    height: 100px;
+}
+.round-button:hover {
+    background: #262626;
+}
+.button {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+
+.twitter-button {
+     width: 100px;
+    height: 100px;
+    display: block;
+    background: url("linkedin-rect-blue.svg");
+}
+.twitter-button:hover {
+    background: url("linkedin-rect-grey.svg");
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700&subset=latin,vietnamese);
+/* Variables */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oxygen", helvetica, sans-serif, sans-serif;
+  background: #f8981c;
+  margin: 0;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.container-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Header & Banner */
+@media (min-width: 0) and (max-width: 480px) {
+  header, footer {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  header, footer {
+    width: 70%;
+  }
+}
+
+header, footer {
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  .header-top {
+    width: 90%;
+    order: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-top {
+    width: 70%;
+    order: 1;
+  }
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  .banner {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    width: 70%;
+  }
+}
+
+.banner {
+  order: 2;
+  padding-top: 20%;
+  background: url("http://lorempixel.com/850/350/technics") 50% 50%/cover no-repeat fixed;
+  box-shadow: inset 0px 0px 100px #000014;
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  .logo {
+    display: block;
+    margin: 5px auto;
+  }
+
+  .site-name {
+    display: block;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo {
+    float: left;
+    margin-right: 3%;
+    height: auto;
+  }
+
+  .site-name {
+    float: right;
+    width: auto;
+    text-align: right;
+  }
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.logo-sang {
+  border-radius: 50%;
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  .container-main {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-main {
+    width: 70%;
+  }
+}
+
+.container-main {
+  margin: auto;
+  padding: 0 20px;
+  order: 3;
+  background: #fff;
+}
+
+/* Porfolio Content */
+.page-heading, .page-subtitle {
+  color: #555;
+  text-transform: uppercase;
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  .project-list {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding: 0 0.83333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-list {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 0 0.83333%;
+  }
+}
+
+@media (min-width: 960px) {
+  .project-list {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: left;
+    padding: 0 0.83333%;
+  }
+}
+
+.project-list:last-child {
+  float: right;
+}
+
+.project-list-title {
+  color: #555;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.project-list-img {
+  display: block;
+  width: 100%;
+  -webkit-filter: grayscale(0.8);
+  transition: all 0.6s ease;
+}
+
+.popup-action:hover .project-list-img {
+  -webkit-filter: grayscale(0);
+}
+
+/* Box popup */
