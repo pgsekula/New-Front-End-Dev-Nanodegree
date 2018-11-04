@@ -103,3 +103,62 @@ ul {
 /*  */
 /* MAIN */
 /*  */
+
+main {
+  box-shadow: 0 2px 5px. rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  */
+/* CONTENT */
+/*  */
+
+.hero {
+  width: 100%;
+  position: relative;
+  background-image: url("images/dog.jpg");
+  background-size: cover;
+  height: 300px;
+}
+ .hero article {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   background-color: #000;
+   background-color: rgba(0, 0, 0, 0.7);
+   position: absolute;
+   bottom: 0;
+   height: 40%;
+   width: 100%;
+   padding: 1em;
+   color: #fff;
+ }
+
+/*  */
+/* TOP NEWS */
+/*  */
+
+.news__more {
+  float: right;
+  font-size: .8em;
+  color: #333;
+  text-decoration: none;
+}
+
+.top-news {
+  height: 300px;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 1em;
+}
+
+.news__title {
+  font-weight: 400;
+  border-bottom: 2px solid #E0E0E0;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.top-news__item {
+
+}

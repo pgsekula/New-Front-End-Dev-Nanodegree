@@ -13,4 +13,13 @@
   height: 200px;
   padding: 20px;
   border: 1px solid black;
+  float: left;
 }
+
+/* OR 2nd SOLUTION */
+/* ADD FLEXBOX TO .row or .container */
+/*  AND DELETE
+display: inline-block;
+float: left;
+FROM .col
+*/
