@@ -160,5 +160,25 @@ main {
 }
 
 .top-news__item {
+border-bottom: 1px solid #E0E0E0;
+line-height: 19.2px;
+padding: 1em 0;
+}
 
+.top-news__item:before {
+  content: ">> "
+}
+
+.top-news__item:last-child {
+  border-bottom: none;
+}
+
+.top-news__item a {
+  text-decoration: none;
+  color: #666;
+}
+
+.top-news__item a:hover,
+.top-news__item a:active {
+  text-decoration: underline;
 }
