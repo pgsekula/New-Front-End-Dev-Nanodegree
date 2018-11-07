@@ -136,7 +136,7 @@ main {
  }
 
 /*  */
-/* TOP NEWS */
+/* TOP NEWS COMMON for TOP and LATEST NEWS*/
 /*  */
 
 .news__more {
@@ -227,3 +227,74 @@ padding: 1em 0;
 .scores__table td:nth-child(5) {
   text-align: center;
 }
+
+/*  */
+/* WEATHER */
+/*  */
+
+.weather {
+  padding: 1em;
+}
+
+.weather__location {
+  display: block;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.weather__desc {
+  display: block;
+  font-size: 1.2em;
+}
+
+.weather__today {
+  width: 60%;
+  vertical-align: middle;
+}
+
+.weather__today__image {
+  vertical-align: middle;
+}
+
+.weather__today__temp {
+  font-size: 3em;
+}
+
+.weather__today__deg {
+  font-size: 2em;
+  display: inline;
+}
+
+.weather__next__item {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+.weather__next__item span {
+  display: block;
+}
+.weather__next__image {
+  width: 100%;
+}
+/*
+ *
+ * Recent News
+ *
+ */
+
+ .recent_news {
+   clear: both;
+   padding: 1em;
+ }
+
+ .snippet {
+   clear: both;
+   margin: 24px 0;
+ }
+
+ .snippet__thumbnail {
+   width: 100px;
+   float: left;
+   margin-right: 1em;
+ }
