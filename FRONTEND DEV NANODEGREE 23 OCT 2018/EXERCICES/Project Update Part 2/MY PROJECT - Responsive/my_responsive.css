@@ -1,0 +1,74 @@
+/* CHANGES <MAIN> to be more responsive */
+
+
+/*  */
+/* HEADER */
+/*  */
+
+@media screen and (max-width: 549px) {
+  .header__logo {
+    height: 48px;
+  }
+  .header__title {
+    font-size: 2em;
+    margin-left: 0;
+    vertical-align: bottom;
+  }
+
+/* HAMBURGER MENU */
+  #hamburger_menu {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+    float: right;
+    padding-top: 7px;
+    padding-right: 10px;
+  }
+
+  .nav {
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    position: absolute;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: trasform 0.3s ease;
+  }
+
+  .nav.open {
+    -webkit-trasform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .nav__item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 550px) {
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #hamburger_menu {
+    display: none;
+  }
+
+  .hero {
+    order: 0;
+    width: 60%;
+  }
+  .weather {
+    order: 1;
+    width: 40%;
+
+  }
+}
