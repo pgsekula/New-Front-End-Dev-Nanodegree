@@ -4,6 +4,9 @@
 /*  */
 /* HEADER */
 /*  */
+.hero, .top-news, .scores, .weather, .recent-news {
+  order: 10;
+}
 
 @media screen and (max-width: 549px) {
   .header__logo {
@@ -69,6 +72,5 @@
   .weather {
     order: 1;
     width: 40%;
-
   }
 }
