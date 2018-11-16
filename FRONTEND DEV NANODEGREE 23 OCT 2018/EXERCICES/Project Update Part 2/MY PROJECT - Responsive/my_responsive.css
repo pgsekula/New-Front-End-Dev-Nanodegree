@@ -73,4 +73,31 @@
     order: 1;
     width: 40%;
   }
+
+  @media screen and (min-width: 700px) {
+    .hero {
+      width: 50%;
+    }
+    .top-news {
+      width: 50%;
+      order: 1;
+    }
+    .scores {
+      width: 60%;
+      order: 2
+    }
+    .weather {
+      order: 3;
+    }
+  }
+
+  @media screen and (min-width: 850px) {
+    main, .header__inner, .content, .nav, footer {
+      width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  }
 }

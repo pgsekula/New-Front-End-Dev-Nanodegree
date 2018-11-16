@@ -105,7 +105,7 @@ ul {
 /*  */
 
 main {
-  box-shadow: 0 2px 5px. rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -150,6 +150,7 @@ main {
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  width: 100%;
 }
 
 .news__title {
@@ -285,7 +286,7 @@ padding: 1em 0;
  *
  */
 
- .recent_news {
+ .recent-news {
    clear: both;
    padding: 1em;
  }
@@ -323,6 +324,7 @@ padding: 1em 0;
    border-top: 1px solid #E0E0E0;
    padding: 1em;
   width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
  }
 
 footer li {
