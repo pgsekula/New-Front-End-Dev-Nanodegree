@@ -1,5 +1,11 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
 body {
-  background-color: #01274b;
+  widows: 100%;
   font-size: 24px;
 }
 
@@ -14,25 +20,73 @@ HEADER *************
 }
 
 .header__section {
-  width: calc(100% / 3);
+  width: calc(100% / 2);
 }
 
 .logo__image {
   width: 50px;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 
 .fa {
   float: right;
-  color: #fff;
+  color: grey;
 }
 
+/*
+MAIN *************
+*/
+
+main {
+
+}
+.title {
+background-color: #3e9ef9;
+}
 .title h1, h2 {
-  margin: 0;
-  color: #fff;
+  color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.85em;
+  font-size: 2em;
   font-weight: 200;
+  text-align: center;
+}
+.title p {
+text-align: center;
+color: #0f1f70;
+font-family: 'Open Sans', sans-serif;
+}
+.title h2 {
+  color: #0f1f70;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.portfolio_row {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+.portfolio_item {
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio_item img {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item_1 {
+  background-color: #f8b300;
+}
+.item_2 {
+  background-color: #ff795b;
+}
+.item_3 {
+  background-color: #a7c9d3;
+}
+.portfolio_item a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
 }
