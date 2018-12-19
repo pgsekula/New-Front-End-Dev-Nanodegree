@@ -8,7 +8,9 @@ body {
   widows: 100%;
   font-size: 24px;
 }
-
+html,body,h1,h2,h3,h4,h5,h6,p {
+  margin:0;padding:0
+}
 /*
 HEADER *************
 */
@@ -17,6 +19,8 @@ HEADER *************
   display: flex;
   width: 100%;
   margin: 0;
+  background-color: #3e9ef9;
+  padding: 10px;
 }
 
 .header__section {
@@ -30,8 +34,9 @@ HEADER *************
 
 .fa {
   float: right;
-  color: grey;
+  color: white;
 }
+
 
 /*
 MAIN *************
@@ -40,40 +45,54 @@ MAIN *************
 main {
 
 }
+
 .title {
 background-color: #3e9ef9;
+padding-bottom: 50px;
+
 }
-.title h1, h2 {
+.title h1 {
   color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
-  font-weight: 200;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.title h2 {
+  color: #0f1f70;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 10px;
 }
 .title p {
 text-align: center;
 color: #0f1f70;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: 0.8em;
 }
-.title h2 {
-  color: #0f1f70;
-  font-weight: 800;
-  font-size: 2em;
-}
+
 
 .portfolio_row {
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 .portfolio_item {
   width: 100%;
   text-align: center;
+  padding: 20px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .portfolio_item img {
   max-width: 40%;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
 }
 .item_1 {
   background-color: #f8b300;
