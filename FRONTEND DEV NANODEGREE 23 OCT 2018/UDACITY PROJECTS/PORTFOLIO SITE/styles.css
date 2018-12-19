@@ -37,6 +37,14 @@ HEADER *************
   color: white;
 }
 
+/*
+NAV *************
+*/
+
+nav {
+  display: none;
+}
+
 
 /*
 MAIN *************
@@ -79,7 +87,6 @@ font-size: 0.8em;
 
 .portfolio_row {
   display: block;
-  font-family: 'Orbitron', sans-serif;
 }
 .portfolio_item {
   width: 100%;
