@@ -19,7 +19,7 @@ HEADER *************
   display: flex;
   width: 100%;
   margin: 0;
-  background-color: #3e9ef9;
+
   padding: 10px;
 }
 
@@ -33,16 +33,42 @@ HEADER *************
 }
 
 .fa {
+
   float: right;
-  color: white;
+  color: grey;
 }
 
 /*
 NAV *************
 */
 
-nav {
-  display: none;
+.navigation {
+	display: none;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav__list {
+	width: 100%;
+	padding: 0;
+	white-space: nowrap;
+}
+.nav__item {
+	width: 33.3333%;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	display: inline-block;
+	text-align: center;
+
+}
+.nav__item a {
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+}
+.nav__item a:hover {
+	color: #3e9ef9;
+	font-weight: 600;
 }
 
 
