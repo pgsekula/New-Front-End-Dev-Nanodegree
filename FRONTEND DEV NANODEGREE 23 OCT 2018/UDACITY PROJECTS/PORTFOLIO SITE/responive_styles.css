@@ -1,3 +1,44 @@
 .navigation.open {
   display: block;
 }
+
+@media screen and (min-width: 768px) {
+
+  .portfolio_item {
+    display: flex;
+  }
+
+  .box__1 {
+    order: 1;
+    width: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .box__2 {
+    order: 2;
+    width: 50%;
+    height: 100%;
+  }
+  .box__1 h3 {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .portfolio_row  {
+    display: flex;
+  }
+  .portfolio_item {
+    display: block;
+  }
+  .box__1 {
+    width: 100%;
+  }
+  .box__2 {
+    width: 100%;
+  }
+}
+
+
+}

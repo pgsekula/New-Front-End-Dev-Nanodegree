@@ -117,7 +117,6 @@ font-size: 0.8em;
 .portfolio_item {
   width: 100%;
   text-align: center;
-  padding: 20px;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -139,6 +138,9 @@ font-size: 0.8em;
 .portfolio_item a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: #0f1f70;
   font-size: 1.2em;
+}
+.portfolio_item a:hover {
+	color: white;
 }
