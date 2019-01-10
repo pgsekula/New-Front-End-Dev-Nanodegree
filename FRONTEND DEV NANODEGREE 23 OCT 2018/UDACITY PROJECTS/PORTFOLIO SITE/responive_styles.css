@@ -26,11 +26,22 @@
 }
 
 @media screen and (min-width: 1024px) {
+  html {
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
   .portfolio_row  {
     display: flex;
   }
   .portfolio_item {
     display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .box__1 {
     width: 100%;

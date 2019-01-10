@@ -82,7 +82,7 @@ main {
 
 .title {
 background-color: #3e9ef9;
-padding-bottom: 50px;
+padding-bottom: 70px;
 
 }
 .title h1 {
@@ -118,6 +118,8 @@ font-size: 0.8em;
   width: 100%;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .portfolio_item img {
