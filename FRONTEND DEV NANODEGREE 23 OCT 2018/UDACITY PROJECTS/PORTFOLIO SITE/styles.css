@@ -41,12 +41,23 @@ HEADER *************
 /*
 NAV *************
 */
+#drawer {
+	z-index: 10;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: background-color 3s ease;
+}
 
 .navigation {
 	display: none;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+.navigation.open {
+  display: block;
 }
 .nav__list {
 	width: 100%;
@@ -56,10 +67,11 @@ NAV *************
 .nav__item {
 	width: 33.3333%;
 	text-transform: uppercase;
-	line-height: 1.5em;
-	display: inline-block;
 	text-align: center;
-
+	line-height: 3em;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
 }
 .nav__item a {
 	text-decoration: none;
@@ -81,8 +93,8 @@ main {
 }
 
 .title {
-background-color: #3e9ef9;
-padding-bottom: 70px;
+	background-color: #3e9ef9;
+	padding-bottom: 70px;
 
 }
 .title h1 {

@@ -1,13 +1,9 @@
-.navigation.open {
-  display: block;
-}
+
 
 @media screen and (min-width: 768px) {
-
   .portfolio_item {
     display: flex;
   }
-
   .box__1 {
     order: 1;
     width: 50%;
@@ -26,11 +22,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  html {
 
-    margin-left: auto;
-    margin-right: auto;
-  }
   .title {
     padding-top: 50px;
     padding-bottom: 100px;
@@ -42,6 +34,7 @@
     display: block;
     padding-top: 100px;
     padding-bottom: 100px;
+
   }
   .box__1 {
     width: 100%;
